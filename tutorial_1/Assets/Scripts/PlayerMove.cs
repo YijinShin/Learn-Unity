@@ -77,4 +77,33 @@ public class PlayerMove : MonoBehaviour
             anim.SetBool("isJump", true); 
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collision){
+        // 피격 이벤트 
+        if(collision.gameObject.tag == "enemy"){
+            OnDamaged(collision.transform.position);
+        }
+
+    }
+
+    //무적시간 돌입 함수 
+    void OnDamaged(Vector2 targetPosition){
+        gameObject.layer = 9; // playerDamaged layer가 9번임. 
+        //반투명
+        spriteRenderer.color = new Color(1,1,1,0.4f);
+        //튕기기
+        int dirc = transform.position.x - targetPosition.x > 0 ? 1 : -1;
+        rigid.AddForce(new Vector2(dirc,1) * 7, ForceMode2D.Impulse);
+
+        //animation
+        anim.SetTrigger("doDamaged");
+
+        Invoke("OffDamaged", 1);
+    }   
+
+    //무적 푸는 함수
+    void OffDamaged(){
+        gameObject.layer = 8; // player layer가 9번임. 
+         spriteRenderer.color = new Color(1,1,1,1);
+    }
 }
