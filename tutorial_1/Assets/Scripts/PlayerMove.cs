@@ -8,12 +8,14 @@ public class PlayerMove : MonoBehaviour
     public float jumpPower;
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
+    CapsuleCollider2D capsuleCollider;
     Animator anim;
     // Start is called before the first frame update
     void Awake()
     {   
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        capsuleCollider = GetComponent<CapsuleCollider2D>();
         anim = GetComponent<Animator >();
         
     }
@@ -81,9 +83,22 @@ public class PlayerMove : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision){
         // 피격 이벤트 
         if(collision.gameObject.tag == "enemy"){
-            OnDamaged(collision.transform.position);
+            //attack
+                //몬스터 위에 있고, 내려오는 힘이 있으면 = 몬스터를 밟은것
+            if(rigid.velocity.y < 0 && transform.position.y > collision.transform.position.y){
+                OnAttack(collision.transform);
+            }
+            //damaged
+            else{
+                OnDamaged(collision.transform.position);
+            }
         }
 
+    }
+
+    void OnAttack(Transform enemy){
+        EnemyMove enemyMove = enemy.GetComponent<EnemyMove>();
+        enemyMove.OnDamaged();
     }
 
     //무적시간 돌입 함수 
@@ -97,7 +112,7 @@ public class PlayerMove : MonoBehaviour
 
         //animation
         anim.SetTrigger("doDamaged");
-
+        //무적시간 해제
         Invoke("OffDamaged", 1);
     }   
 
@@ -105,5 +120,12 @@ public class PlayerMove : MonoBehaviour
     void OffDamaged(){
         gameObject.layer = 8; // player layer가 9번임. 
          spriteRenderer.color = new Color(1,1,1,1);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision){
+        if(collision.gameObject.tag == "Item"){
+            Debug.Log("coin");
+            collision.gameObject.SetActive(false);
+        }
     }
 }

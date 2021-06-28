@@ -9,6 +9,7 @@ public class EnemyMove : MonoBehaviour
     Rigidbody2D rigid;
     Animator anim;
     SpriteRenderer spriteRenderer;
+    CapsuleCollider2D capsuleCollider;
     public int nextMove;
 
 
@@ -18,6 +19,7 @@ public class EnemyMove : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRenderer  = GetComponent<SpriteRenderer>();
+        capsuleCollider = GetComponent<CapsuleCollider2D>();
         Think(); 
 
         Invoke("Think", 5); // 주어진 시간이 지난 뒤 지정된 함수를 실행함. 그냥 재귀로 부르면 과부화걸림 
@@ -58,5 +60,23 @@ public class EnemyMove : MonoBehaviour
         spriteRenderer.flipX = nextMove == 1;
         CancelInvoke(); // 우리가 바꿔줬잖아. 그러니까 자동 실행되는 Invoke를 잠깐 멈추는 것. 안그러면 타이밍 때문에 파밧하고 2번 연속 바뀔 수 있다. 
         Invoke("Think", 5); 
+    }
+
+    //공격당함
+    public void OnDamaged(){
+        //sprite alpha
+        spriteRenderer.color = new Color(1,1,1,0.4f);
+        //sprite file y
+        spriteRenderer.flipY = true;
+        //collider disable
+        capsuleCollider.enabled = false;
+        //die effect jump
+        rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+        //destroy
+        Invoke("DeActive" ,5);
+    }
+
+    void DeActive(){
+        gameObject.SetActive(false);
     }
 }
