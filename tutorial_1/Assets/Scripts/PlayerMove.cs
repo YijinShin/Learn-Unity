@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    public GameManager gameManager;
     public float maxSpeed;
     public float jumpPower;
     Rigidbody2D rigid;
@@ -13,6 +14,7 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {   
+        //gameManager = GetComponent<GameManager>();
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
@@ -99,6 +101,7 @@ public class PlayerMove : MonoBehaviour
     void OnAttack(Transform enemy){
         EnemyMove enemyMove = enemy.GetComponent<EnemyMove>();
         enemyMove.OnDamaged();
+        gameManager.stagePoint += 100;
     }
 
     //무적시간 돌입 함수 
@@ -125,7 +128,11 @@ public class PlayerMove : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision){
         if(collision.gameObject.tag == "Item"){
             Debug.Log("coin");
+            gameManager.stagePoint += 100;
             collision.gameObject.SetActive(false);
+        }
+        else if(collision.gameObject.tag == "Finish"){
+            //next stage
         }
     }
 }
