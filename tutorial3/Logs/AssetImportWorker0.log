@@ -259,3 +259,19 @@ System memory in use after: 126.4 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1616.
 Total: 1.966331 ms (FindLiveObjects: 0.152059 ms CreateObjectMapping: 0.034009 ms MarkObjects: 1.714614 ms  DeleteObjects: 0.064481 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 78232.959090 seconds.
+  path: Assets/boll.physicMaterial
+  artifactKey: Guid(daab893ddf17e465aad101ede458d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boll.physicMaterial using Guid(daab893ddf17e465aad101ede458d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cbcfdbcf1956d10bc6f4d0203b28df') in 0.122116 seconds
+  Import took 0.229498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001112 seconds.
+  path: Assets/boll2.physicMaterial
+  artifactKey: Guid(a873de557152c4bcb95eda0dd1f32fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boll2.physicMaterial using Guid(a873de557152c4bcb95eda0dd1f32fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf33185b76d6c4df1b673b33817925a4') in 0.005351 seconds
+  Import took 0.008031 seconds .
+
