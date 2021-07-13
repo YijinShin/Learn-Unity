@@ -12,266 +12,94 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59878
+64611
 Successfully changed project path to: /Users/shinyijin/GitHub/Learn-Unity/tutorial3
 /Users/shinyijin/GitHub/Learn-Unity/tutorial3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 22.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/shinyijin/GitHub/Learn-Unity/tutorial3/Assets
 GfxDevice: creating device client; threaded=0
-2021-07-07 16:31:53.901 Unity[7563:477913] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-07-07 16:31:53.901 Unity[7563:477913] Metal devices available: 1
-2021-07-07 16:31:53.901 Unity[7563:477913] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-07-07 16:31:53.903 Unity[7563:477913] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-07-13 22:17:16.960 Unity[47992:3115682] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-07-13 22:17:16.960 Unity[47992:3115682] Metal devices available: 1
+2021-07-13 22:17:16.960 Unity[47992:3115682] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-07-13 22:17:16.960 Unity[47992:3115682] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56563
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004544 seconds.
+Registered in 0.005012 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 22.91 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 24.12 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.131 seconds
+- Completed reload, in  1.605 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001437 seconds.
+Registered in 0.001780 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
+- Completed reload, in  1.083 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.6 MB.
-System memory in use after: 108.7 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
-Total: 1.978709 ms (FindLiveObjects: 0.165509 ms CreateObjectMapping: 0.029291 ms MarkObjects: 1.696675 ms  DeleteObjects: 0.086235 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Boll1.mat
-  artifactKey: Guid(8448fbba20ae74eaa9e9366b36c4101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Boll1.mat using Guid(8448fbba20ae74eaa9e9366b36c4101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22441f9357bf29a1ce748bc618fbd156') in 1.469996 seconds
-  Import took 1.472163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 197.446625 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001823 seconds
-  Import took 0.004925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.259279 seconds.
-  path: Assets/IMG_8669.jpg
-  artifactKey: Guid(08d78f70cf4ae4972858c305008569fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMG_8669.jpg using Guid(08d78f70cf4ae4972858c305008569fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0208aff1122c1a5b69c95ed15830a469') in 1.107940 seconds
-  Import took 1.110800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.565032 seconds.
-  path: Assets/IMG_8668.jpg
-  artifactKey: Guid(82f0d565e7bbb4e5ab8316fb8fcda3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMG_8668.jpg using Guid(82f0d565e7bbb4e5ab8316fb8fcda3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbd9f7930c8c79861edf84c9af9e68d') in 0.010087 seconds
-  Import took 0.013503 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000506 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
-Platform modules already initialized, skipping
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.2 MB.
-System memory in use after: 121.3 MB.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1602.
-Total: 1.779214 ms (FindLiveObjects: 0.144320 ms CreateObjectMapping: 0.031240 ms MarkObjects: 1.550499 ms  DeleteObjects: 0.051955 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 138.696013 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(9ef6a026682ce4119a5c9a76edccc4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(9ef6a026682ce4119a5c9a76edccc4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d5e6f7e716d11e4d64a21526a92b30') in 0.081549 seconds
-  Import took 0.084134 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 1.651421 ms (FindLiveObjects: 0.154746 ms CreateObjectMapping: 0.034227 ms MarkObjects: 1.379886 ms  DeleteObjects: 0.081638 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 113.624301 seconds.
-  path: Assets/boll.physicMaterial
-  artifactKey: Guid(daab893ddf17e465aad101ede458d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/boll.physicMaterial using Guid(daab893ddf17e465aad101ede458d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d21951341dde00e98d15f11177e316') in 0.398811 seconds
-  Import took 0.400994 seconds .
+  path: Assets/Script
+  artifactKey: Guid(52d24682fb29e4a9a9cdda2a312290bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(52d24682fb29e4a9a9cdda2a312290bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b322e70f7860c989d772924365ebaab') in 0.006458 seconds
+  Import took 0.009591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.468416 seconds.
+  path: Assets/Script/OtherBall6.cs
+  artifactKey: Guid(a5bdfec5e6f374f20917ee3ef2f5f761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/OtherBall6.cs using Guid(a5bdfec5e6f374f20917ee3ef2f5f761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b4c32ce628c27d7352d00da55ccb4') in 0.428065 seconds
+  Import took 0.436630 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000674 seconds.
+Registered in 0.000498 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
+- Completed reload, in  1.090 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.7 MB.
-System memory in use after: 125.8 MB.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.2 MB.
+System memory in use after: 113.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1606.
-Total: 2.251824 ms (FindLiveObjects: 0.338515 ms CreateObjectMapping: 0.063912 ms MarkObjects: 1.773750 ms  DeleteObjects: 0.073225 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 135.022708 seconds.
-  path: Assets/boll.physicMaterial
-  artifactKey: Guid(daab893ddf17e465aad101ede458d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/boll.physicMaterial using Guid(daab893ddf17e465aad101ede458d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a705994e080f99ba9ee191c9bd0136b4') in 0.024663 seconds
-  Import took 0.027891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(9ef6a026682ce4119a5c9a76edccc4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(9ef6a026682ce4119a5c9a76edccc4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163e6bbf2180577466a06eca8062e517') in 0.078148 seconds
-  Import took 0.080257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/boll.physicMaterial
-  artifactKey: Guid(daab893ddf17e465aad101ede458d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/boll.physicMaterial using Guid(daab893ddf17e465aad101ede458d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a705994e080f99ba9ee191c9bd0136b4') in 0.004886 seconds
-  Import took 0.006740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Boll1.mat
-  artifactKey: Guid(8448fbba20ae74eaa9e9366b36c4101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Boll1.mat using Guid(8448fbba20ae74eaa9e9366b36c4101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4d6d0717165e6baa8d8c32a7c27ec6') in 0.048648 seconds
-  Import took 0.050664 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000415 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.998 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.0 MB.
-System memory in use after: 126.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1610.
-Total: 1.948908 ms (FindLiveObjects: 0.324562 ms CreateObjectMapping: 0.074008 ms MarkObjects: 1.491146 ms  DeleteObjects: 0.057899 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000853 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.2 MB.
-System memory in use after: 126.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1613.
-Total: 1.859949 ms (FindLiveObjects: 0.164838 ms CreateObjectMapping: 0.036955 ms MarkObjects: 1.583932 ms  DeleteObjects: 0.073284 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.643541 seconds.
-  path: Assets/boll2.physicMaterial
-  artifactKey: Guid(a873de557152c4bcb95eda0dd1f32fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/boll2.physicMaterial using Guid(a873de557152c4bcb95eda0dd1f32fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c593c3a31e2bc16cee2bb8fef52b156') in 0.022672 seconds
-  Import took 0.024988 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000689 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.4 MB.
-System memory in use after: 126.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1616.
-Total: 1.966331 ms (FindLiveObjects: 0.152059 ms CreateObjectMapping: 0.034009 ms MarkObjects: 1.714614 ms  DeleteObjects: 0.064481 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 78232.959090 seconds.
-  path: Assets/boll.physicMaterial
-  artifactKey: Guid(daab893ddf17e465aad101ede458d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/boll.physicMaterial using Guid(daab893ddf17e465aad101ede458d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cbcfdbcf1956d10bc6f4d0203b28df') in 0.122116 seconds
-  Import took 0.229498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001112 seconds.
-  path: Assets/boll2.physicMaterial
-  artifactKey: Guid(a873de557152c4bcb95eda0dd1f32fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/boll2.physicMaterial using Guid(a873de557152c4bcb95eda0dd1f32fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf33185b76d6c4df1b673b33817925a4') in 0.005351 seconds
-  Import took 0.008031 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 1.538539 ms (FindLiveObjects: 0.181924 ms CreateObjectMapping: 0.032882 ms MarkObjects: 1.268655 ms  DeleteObjects: 0.054329 ms)
 
