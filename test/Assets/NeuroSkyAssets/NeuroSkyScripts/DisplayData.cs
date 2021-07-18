@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+using System.Threading;
 public class DisplayData : MonoBehaviour
 {
 	public Texture2D[] signalIcons;
@@ -9,24 +9,28 @@ public class DisplayData : MonoBehaviour
 	
     TGCConnectionController controller;
 
-    private int poorSignal1;
-    private int attention1;
-    private int meditation1;
+    public int poorSignal1;
+    public int attention1;
+    public int meditation1;
+	public int blinkStrength;
 	
 	private float delta;
 
     void Start()
     {
-		
-		controller = GameObject.Find("NeuroSkyTGCController").GetComponent<TGCConnectionController>();
-		
+				controller = GameObject.Find("NeuroSkyTGCController").GetComponent<TGCConnectionController>();
+	
 		controller.UpdatePoorSignalEvent += OnUpdatePoorSignal;
 		controller.UpdateAttentionEvent += OnUpdateAttention;
 		controller.UpdateMeditationEvent += OnUpdateMeditation;
 		
 		controller.UpdateDeltaEvent += OnUpdateDelta;
+
+		// Thread thread = new Thread(threading);
+		// thread.Start();
 		
     }
+
 	
 	void OnUpdatePoorSignal(int value){
 		poorSignal1 = value;
@@ -52,6 +56,9 @@ public class DisplayData : MonoBehaviour
 		delta = value;
 	}
 
+	void OnUpdateBlinkstrength(int value){
+		blinkStrength = value;
+	}
 
     void OnGUI()
     {
@@ -78,6 +85,7 @@ public class DisplayData : MonoBehaviour
         GUILayout.Label("Attention1:" + attention1);
         GUILayout.Label("Meditation1:" + meditation1);
 		GUILayout.Label("Delta:" + delta);
+		GUILayout.Label("EyeBlink" + blinkStrength);
 
     }
 }

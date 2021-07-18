@@ -268,8 +268,14 @@
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Jayrock.Json">
+        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Assets/NeuroSkyAssets/NeuroSkyScripts/Jayrock.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Jayrock">
+        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Assets/NeuroSkyAssets/NeuroSkyScripts/Jayrock.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
@@ -634,8 +640,14 @@
     <Reference Include="UnityEditor.TestRunner">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -652,6 +664,9 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -663,15 +678,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

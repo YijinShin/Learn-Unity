@@ -36,22 +36,46 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\HSH\Nero_Print.cs" />
+     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\TGCConnectionController.cs" />
      <Compile Include="Assets\Scripts\SHS\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\OYJ\PlayerTurn.cs" />
+     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\PreserveGameObject.cs" />
      <Compile Include="Assets\QuarterView 3D Action BE5\ReadMe\Scripts\ReadmeBE5.cs" />
+     <Compile Include="Assets\Scripts\OYJ\HintObject.cs" />
      <Compile Include="Assets\Scripts\HSH\CH_move.cs" />
      <Compile Include="Assets\Scripts\SHS\CameraMove.cs" />
-     <Compile Include="Assets\Scripts\HSH\Camera_move.cs" />
-     <Compile Include="Assets\Scripts\OYJ\HintObject.cs" />
-     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\PreserveGameObject.cs" />
-     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\TGCConnectionController.cs" />
      <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\DisplayData.cs" />
-     <Compile Include="Assets\Scripts\SYJ\CameraManager.cs" />
-     <Compile Include="Assets\Scripts\SYJ\CameraController.cs" />
-     <Compile Include="Assets\Scripts\SYJ\Player.cs" />
-     <Compile Include="Assets\Scripts\SYJ\Item.cs" />
-     <Compile Include="Assets\Scripts\SYJ\Camera_flow.cs" />
+     <Compile Include="Assets\Scripts\HSH\Camera_move.cs" />
+     <Compile Include="Assets\Scripts\SYJ\3D Survival Game\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\SYJ\3D Survival Game\Hand.cs" />
+     <Compile Include="Assets\Scripts\SYJ\3D Survival Game\HandController.cs" />
+     <Compile Include="Assets\Scripts\SHS\GameManager.cs" />
+     <Compile Include="Assets\Scripts\SYJ\Quarter View Game1\PlayerController2.cs" />
+     <Compile Include="Assets\Scripts\SYJ\Quarter View Game1\CameraController.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\NeuroSkyAssets\NeuroSkyTGCController\Readme.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Source\SYJ\Servival Game\Water Shader\Water_Shader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -274,14 +298,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Jayrock.Json">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Assets/NeuroSkyAssets/NeuroSkyScripts/Jayrock.Json.dll</HintPath>
     </Reference>
     <Reference Include="Jayrock">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Assets/NeuroSkyAssets/NeuroSkyScripts/Jayrock.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

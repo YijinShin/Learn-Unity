@@ -4,111 +4,90 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
-    public GameObject player;
-    public Camera mainCamera;
-    public Transform mainCameraRotation;
-    public Camera camera1;
-    public Transform camera1Rotation;
-    public Camera camera2;
-    public Transform camera2Rotation;
-    public Camera camera3;
-    public Transform camera3Rotation;
-    public Camera camera4;
-    public Transform camera4Rotation;
 
-    // Start is called before the first frame update
+    public Camera[] arrCam; // 카메라 개수
+    AudioListener[] listeners; // 오디오 리스너
+    public int nCamCount; // 총 카메라 개수
+    public int nNowCam; // 현재 활성화되어있는 카메라 번호
+    int nListenerCount; // 총 오디오리스너 개수
+    int nNowListener; // 현재 활성화 되어있는 오디오리스너 번호
+
     void Awake()
     {
-        mainCamera.enabled = true;
-        camera1.enabled = false;
-        camera2.enabled = false;
-        camera3.enabled = false;
-        camera4.enabled = false;
+        nCamCount = arrCam.Length;
+        nNowCam = 0;
+
+        storeListeners();
+        nListenerCount = listeners.Length;
+        nNowListener = 0;
+
+        cameraEnabled();
+        ListenerEnabled();
+
     }
 
-    public void mainCameraEnabled()
-    {
-        mainCamera.enabled = true;
-        camera1.enabled = false;
-        camera2.enabled = false;
-        camera3.enabled = false;
-        camera4.enabled = false;
-    }
-
-    public void camera1Enabled()
-    {
-        mainCamera.enabled = false;
-        camera1.enabled = true;
-        camera2.enabled = false;
-        camera3.enabled = false;
-        camera4.enabled = false;
-    }
-    public void camera2Enabled()
-    {
-        mainCamera.enabled = false;
-        camera1.enabled = false;
-        camera2.enabled = true;
-        camera3.enabled = false;
-        camera4.enabled = false;
-    }
-    public void camera3Enabled()
-    {
-        mainCamera.enabled = false;
-        camera1.enabled = false;
-        camera2.enabled = false;
-        camera3.enabled = true;
-        camera4.enabled = false;
-    }
-    public void camera4Enabled()
-    {
-        mainCamera.enabled = false;
-        camera1.enabled = false;
-        camera2.enabled = false;
-        camera3.enabled = false;
-        camera4.enabled = true;
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetKey("m"))
         {
-            mainCameraEnabled();
-            Debug.Log(""+mainCameraRotation.rotation.eulerAngles);
-            Debug.Log("M player's rotation : "+player.transform.rotation.eulerAngles);
-            player.transform.rotation = Quaternion.Euler(mainCameraRotation.rotation.eulerAngles);
+            nNowCam = nNowListener = 0;
+            cameraEnabled();
+            ListenerEnabled();
         }
 
         else if(Input.GetKey("1"))
         {
-            camera1Enabled();
-            Debug.Log(""+camera1Rotation.rotation.eulerAngles);
-            Debug.Log("1 player's rotation : "+player.transform.rotation.eulerAngles);
-            player.transform.rotation = Quaternion.Euler(camera1Rotation.rotation.eulerAngles);
+            nNowCam = nNowListener = 1;
+            cameraEnabled();
+            ListenerEnabled();
+            
         }
 
         else if(Input.GetKey("2"))
         {
-            camera2Enabled();
-            Debug.Log(""+camera2Rotation.rotation.eulerAngles);
-            Debug.Log("2 player's rotation : "+player.transform.rotation.eulerAngles);
-            player.transform.rotation = Quaternion.Euler(camera2Rotation.rotation.eulerAngles);
+            nNowCam = nNowListener = 2;
+            cameraEnabled();
+            ListenerEnabled();
+            
         }
 
         else if(Input.GetKey("3"))
         {
-            camera3Enabled();
-            Debug.Log(""+camera3Rotation.rotation.eulerAngles);
-            Debug.Log("3 player's rotation : "+player.transform.rotation.eulerAngles);
-            player.transform.rotation = Quaternion.Euler(camera3Rotation.rotation.eulerAngles);
+            nNowCam = nNowListener = 3;
+            cameraEnabled();
+            ListenerEnabled();
+            
         }
 
         else if(Input.GetKey("4"))
         {
-            camera4Enabled();
-            Debug.Log(""+camera4Rotation.rotation.eulerAngles);
-            Debug.Log("4 player's rotation : "+player.transform.rotation.eulerAngles);
-            player.transform.rotation = Quaternion.Euler(camera4Rotation.rotation.eulerAngles);
+            nNowCam = nNowListener = 4;
+            cameraEnabled();
+            ListenerEnabled();
+        }
+    }
+
+    void storeListeners() // 오디오리스너 저장
+    {
+        listeners = new AudioListener[nCamCount];
+        for (int i = 0; i < nCamCount; i++)
+        {
+            listeners[i] = arrCam[i].GetComponent<AudioListener>();
+        }
+    }
+    void cameraEnabled() // 선택된 카메라 활성화
+    {
+        for (int i = 0; i < nCamCount; i++)
+        {
+            arrCam[i].enabled = (i == nNowCam);
+        }
+    }
+
+    void ListenerEnabled() // 선택된 카메라의 오디오리스너 활성화
+    {
+        for (int i = 0; i < nListenerCount; i++)
+        {
+            listeners[i].enabled = (i == nNowListener);
         }
     }
 }

@@ -6,12 +6,18 @@ using Jayrock.Json.Conversion;
 using System.Net.Sockets;
 using System.Text;
 using System.IO;
+using System.Threading;
 
 public class TGCConnectionController : MonoBehaviour {
 	private TcpClient client; 
   	private Stream stream;
   	private byte[] buffer;
 	
+	//threading
+	private bool Threading_Is_Running;
+	public bool Lock;
+	private Thread thread;
+
 	public delegate void UpdateIntValueDelegate(int value);
 	public delegate void UpdateFloatValueDelegate(float value);
 	
@@ -30,20 +36,22 @@ public class TGCConnectionController : MonoBehaviour {
 	public event UpdateFloatValueDelegate UpdateLowGammaEvent;
 	public event UpdateFloatValueDelegate UpdateHighGammaEvent;
 	
+	
 
 	void Start () {
+
 		Connect();
 	}
 	
 	public void Disconnect(){
-		if(IsInvoking("ParseData")){
-			CancelInvoke("ParseData");
+		if(Threading_Is_Running){
+			CancelInvoke("Threading");
 			stream.Close();
 		}
 	}
 	
 	public void Connect(){
-		if(!IsInvoking("ParseData")){
+		if(!Threading_Is_Running){
 			
 			client = new TcpClient("127.0.0.1", 13854);	
 		    stream = client.GetStream();
@@ -51,11 +59,24 @@ public class TGCConnectionController : MonoBehaviour {
 		    byte[] myWriteBuffer = Encoding.ASCII.GetBytes(@"{""enableRawOutput"": true, ""format"": ""Json""}");
 		    stream.Write(myWriteBuffer, 0, myWriteBuffer.Length);
 			
-			InvokeRepeating("ParseData",0.1f,0.02f);
+			InvokeRepeating("Threading",0.1f,0.02f);
 		}
+		
 	}
-	
+	void Threading(){
+		 if(!Threading_Is_Running){
+			// ThreadPool.QueueUserWorkItem(ParseData);
+
+			thread = new Thread(ParseData);
+			thread.Start();
+			//thread.Join();
+		}	
+	}
 	void ParseData(){
+		Debug.Log("ParseData");
+		Threading_Is_Running=true;
+		Lock=true;
+
 	    if(stream.CanRead){
 	      try { 
 	        int bytesRead = stream.Read(buffer, 0, buffer.Length);
@@ -124,6 +145,9 @@ public class TGCConnectionController : MonoBehaviour {
 	      catch(IOException e){ Debug.Log("IOException " + e); }
 	      catch(System.Exception e){ Debug.Log("Exception " + e); }
 	    }		
+		Debug.Log("Parse Data Done");
+		Lock=false;
+		Threading_Is_Running =false;
 		
 	}// end ParseData
 	

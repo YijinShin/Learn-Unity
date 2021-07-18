@@ -36,12 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\CameraController.cs" />
      <Compile Include="Assets\Script\Player.cs" />
      <Compile Include="Assets\QuarterView 3D Action BE5\ReadMe\Scripts\ReadmeBE5.cs" />
      <Compile Include="Assets\Script\Camera_flow.cs" />
      <Compile Include="Assets\Script\Item.cs" />
      <Compile Include="Assets\Script\CameraManager.cs" />
-     <Compile Include="Assets\Script\CameraController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

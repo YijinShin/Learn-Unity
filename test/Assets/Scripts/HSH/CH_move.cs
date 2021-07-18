@@ -6,6 +6,7 @@ public class CH_move : MonoBehaviour
 {
     public float Walk_speed;
     public float Rotation_speed;
+    public GameObject Camera;
 
     public KeyCode Forward;
     public KeyCode Back;
@@ -74,7 +75,7 @@ public class CH_move : MonoBehaviour
     }
     void Move_CH(){
         Move = Move.normalized * Walk_speed * Time.deltaTime;
-        Debug.Log(Move.x);
+        //Debug.Log(Move.x);
         rigidbody.MovePosition(transform.position+Move);
     }
     void Turn_CH(){
