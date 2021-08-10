@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: [Hint]
+  tags:
+  - Hint
+  - Object
+  - Bed
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -13,8 +17,7 @@ TagManager:
   - UI
   - Cube
   - Weapon
-  - 
-  - 
+  - Item
   - 
   - 
   - 

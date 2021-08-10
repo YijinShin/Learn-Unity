@@ -1,0 +1,513 @@
+fileFormatVersion: 2
+guid: 87bea1ee53c9cf145a3616713bd0d108
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3914187094682417961
+    second: ClipBoard_0
+  - first:
+      213: -5344044935116510690
+    second: ClipBoard_1
+  - first:
+      213: 8397100898601372491
+    second: ClipBoard_2
+  - first:
+      213: 6407609606147884660
+    second: ClipBoard_3
+  - first:
+      213: -5190450912635516831
+    second: ClipBoard_4
+  - first:
+      213: -5148764741076277874
+    second: ClipBoard_5
+  - first:
+      213: -5631705553308738305
+    second: ClipBoard_6
+  - first:
+      213: -1701496660329217115
+    second: ClipBoard_7
+  - first:
+      213: -8229397350292837763
+    second: ClipBoard_8
+  - first:
+      213: 3118547784989310795
+    second: ClipBoard_9
+  - first:
+      213: -5120317063619402535
+    second: ClipBoard_10
+  - first:
+      213: 4123724459957123391
+    second: ClipBoard_11
+  - first:
+      213: -2339797415599834340
+    second: ClipBoard_12
+  - first:
+      213: 4334897379592197721
+    second: ClipBoard_13
+  - first:
+      213: -5666694800304578474
+    second: ClipBoard_14
+  - first:
+      213: 4441801178670102670
+    second: ClipBoard_15
+  - first:
+      213: 4067967494059723476
+    second: ClipBoard_16
+  - first:
+      213: 4749211260671581914
+    second: ClipBoard_17
+  - first:
+      213: -7597939861955423927
+    second: ClipBoard_18
+  - first:
+      213: -1624652511372527223
+    second: ClipBoard_19
+  - first:
+      213: 7295658832991421603
+    second: ClipBoard_20
+  - first:
+      213: -4940430181065195651
+    second: ClipBoard_21
+  - first:
+      213: 7036946829798406391
+    second: ClipBoard_22
+  - first:
+      213: 671645771910267874
+    second: ClipBoard_23
+  - first:
+      213: 3132666543365822429
+    second: ClipBoard_24
+  - first:
+      213: 6004429037703944356
+    second: ClipBoard_25
+  - first:
+      213: -2198894958822481657
+    second: ClipBoard_26
+  - first:
+      213: -7621141307455663553
+    second: ClipBoard_27
+  - first:
+      213: -1283008660534346037
+    second: ClipBoard_28
+  - first:
+      213: -9195631540414628162
+    second: ClipBoard_29
+  - first:
+      213: 8090128422040707732
+    second: ClipBoard_30
+  - first:
+      213: 6267463943608306032
+    second: ClipBoard_31
+  - first:
+      213: -3328308742653514728
+    second: ClipBoard_32
+  - first:
+      213: 275288057554515229
+    second: ClipBoard_33
+  - first:
+      213: -8491645669186775368
+    second: ClipBoard_34
+  - first:
+      213: -7565185662256478093
+    second: ClipBoard_35
+  - first:
+      213: 9108477432060889775
+    second: ClipBoard_36
+  - first:
+      213: -3316010970825672116
+    second: ClipBoard_37
+  - first:
+      213: 1650224880801093614
+    second: ClipBoard_38
+  - first:
+      213: -6297498147771796957
+    second: ClipBoard_39
+  - first:
+      213: -7598100067834833336
+    second: ClipBoard_40
+  - first:
+      213: -5894776197577203500
+    second: ClipBoard_41
+  - first:
+      213: 7949738241404613170
+    second: ClipBoard_42
+  - first:
+      213: 3811668294077810538
+    second: ClipBoard_43
+  - first:
+      213: 2481477136519802285
+    second: ClipBoard_44
+  - first:
+      213: 6787225843797600985
+    second: ClipBoard_45
+  - first:
+      213: -1239328882310735605
+    second: ClipBoard_46
+  - first:
+      213: 1319075829604807380
+    second: ClipBoard_47
+  - first:
+      213: 4554790593377117077
+    second: ClipBoard_48
+  - first:
+      213: -5966350865229701359
+    second: ClipBoard_49
+  - first:
+      213: -8113609753443475168
+    second: ClipBoard_50
+  - first:
+      213: 497763708550559071
+    second: ClipBoard_51
+  - first:
+      213: -1308990662591577586
+    second: ClipBoard_52
+  - first:
+      213: 6265623934144133192
+    second: ClipBoard_53
+  - first:
+      213: -7256011349988061112
+    second: ClipBoard_54
+  - first:
+      213: 6339561899610882690
+    second: ClipBoard_55
+  - first:
+      213: -526844702316532749
+    second: ClipBoard_56
+  - first:
+      213: 6530228392887149916
+    second: ClipBoard_57
+  - first:
+      213: 5104225137442019732
+    second: ClipBoard_58
+  - first:
+      213: 5526967173219855361
+    second: ClipBoard_59
+  - first:
+      213: 36230736658989631
+    second: ClipBoard_60
+  - first:
+      213: 2897604249365204496
+    second: ClipBoard_61
+  - first:
+      213: -6105287043987608134
+    second: ClipBoard_62
+  - first:
+      213: -1678703876865089172
+    second: ClipBoard_63
+  - first:
+      213: -403384095164914527
+    second: ClipBoard_64
+  - first:
+      213: -3276948311830228696
+    second: ClipBoard_65
+  - first:
+      213: 5440437267958522925
+    second: ClipBoard_66
+  - first:
+      213: 6920283034999069159
+    second: ClipBoard_67
+  - first:
+      213: -5533956545093363090
+    second: ClipBoard_68
+  - first:
+      213: 7685275114159213962
+    second: ClipBoard_69
+  - first:
+      213: -2611361779195378367
+    second: ClipBoard_70
+  - first:
+      213: -3233927096256812748
+    second: ClipBoard_71
+  - first:
+      213: 3926709138213060973
+    second: ClipBoard_72
+  - first:
+      213: -8060948810371404169
+    second: ClipBoard_73
+  - first:
+      213: -797227153390585728
+    second: ClipBoard_74
+  - first:
+      213: 2018156978800688265
+    second: ClipBoard_75
+  - first:
+      213: -3065974698177380524
+    second: ClipBoard_76
+  - first:
+      213: -8512771476344871187
+    second: ClipBoard_77
+  - first:
+      213: 911486552321756704
+    second: ClipBoard_78
+  - first:
+      213: -3758636075828702991
+    second: ClipBoard_79
+  - first:
+      213: 2189320998160294517
+    second: ClipBoard_80
+  - first:
+      213: 7184260666590954549
+    second: ClipBoard_81
+  - first:
+      213: 8051153718969245311
+    second: ClipBoard_82
+  - first:
+      213: -9177188365968920479
+    second: ClipBoard_83
+  - first:
+      213: 3229804774260663712
+    second: ClipBoard_84
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ClipBoard_20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1668
+        width: 1254
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a405e6fd036f3560800000000000000
+      internalID: 7295658832991421603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClipBoard_21
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 1668
+        width: 1254
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f7df30de0107bb0800000000000000
+      internalID: -4940430181065195651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClipBoard_61
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 451
+        width: 1254
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e431f66bb563820800000000000000
+      internalID: 2897604249365204496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClipBoard_62
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 451
+        width: 1255
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abde25bd7c9a54ba0800000000000000
+      internalID: -6105287043987608134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClipBoard_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 94
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6e262e17f8cd980800000000000000
+      internalID: -8512771476344871187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClipBoard_78
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 96
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e0fa8a03046ac00800000000000000
+      internalID: 911486552321756704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

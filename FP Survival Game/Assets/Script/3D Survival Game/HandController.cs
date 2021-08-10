@@ -27,13 +27,14 @@ public class HandController : MonoBehaviour
             }
         }
     }
-
     IEnumerator AttackCoroutine(){
         isAttack = true;
         //에니메이션
         currentHand.anim.SetTrigger("Attack");//에니메이터의 Attack trigger를 발동시킴 
         yield return new WaitForSeconds(currentHand.attacDelayA); // attack delayA만큼 wait시키기(주먹을 다 뻗을때까지 기달)
         isSwing = true;//위의 기다림이 끝나면 이제 공격 들어감
+        //공격 적중 여부 판단
+        StartCoroutine("HitCoroutine");
         //공격 활성화 시점
         yield return new WaitForSeconds(currentHand.attacDelayB); // 팔 접을 떄까지 기달
         isSwing = false;//위의 기다림이 끝나면 이제 팔 다 접은것. 
@@ -41,11 +42,13 @@ public class HandController : MonoBehaviour
         yield return new WaitForSeconds(currentHand.attacDelay - currentHand.attacDelayA -currentHand.attacDelayB); //다음 공격을 실행가능한 시간 전까지의 대기 
         isAttack = false;
     }
+
     IEnumerator HitCoroutine(){ // 공격적중여부 확인
-        while(isSwing){
+        while(isSwing){            
             if(CheckObject()){
+                Debug.Log("hit coroutine");
                 //충돌됨
-                isSwing = false;//한번 적중하면 꺼주기
+                isSwing = !isSwing;//한번 적중하면 꺼주기
                 Debug.Log("Log:"+hitInfo.transform.name); //충돌한 object의 이름 프린트
             }
             yield return null;
@@ -58,7 +61,6 @@ public class HandController : MonoBehaviour
             return true;
         }
         return false;
-
     }
     
 }

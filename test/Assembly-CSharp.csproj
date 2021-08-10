@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_9;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_9;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -36,46 +36,193 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\Assets\NeuroSkyAssets\NeuroSkyScripts\SliderGage.cs" />
+     <Compile Include="Assets\Scripts\Prototype\CheckPM.cs" />
      <Compile Include="Assets\Scripts\HSH\Nero_Print.cs" />
-     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\TGCConnectionController.cs" />
+     <Compile Include="Assets\Scripts\OYJ\NoteUI.cs" />
+     <Compile Include="Assets\Assets\NeuroSkyAssets\NeuroSkyScripts\TGCConnectionController.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Scripts\HSH\Dialog.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\LerpControlledBob.cs" />
      <Compile Include="Assets\Scripts\SHS\PlayerMove.cs" />
-     <Compile Include="Assets\Scripts\OYJ\PlayerTurn.cs" />
-     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\PreserveGameObject.cs" />
-     <Compile Include="Assets\QuarterView 3D Action BE5\ReadMe\Scripts\ReadmeBE5.cs" />
-     <Compile Include="Assets\Scripts\OYJ\HintObject.cs" />
-     <Compile Include="Assets\Scripts\HSH\CH_move.cs" />
-     <Compile Include="Assets\Scripts\SHS\CameraMove.cs" />
-     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\DisplayData.cs" />
-     <Compile Include="Assets\Scripts\HSH\Camera_move.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+     <Compile Include="Assets\Scripts\HSH\Talk_Starter.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+     <Compile Include="Assets\Scripts\MainScript\ItemInvestigate.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\FogModel.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\TaaComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\VignetteModel.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\GrainModel.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingModel.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\TimedObjectActivator.cs" />
      <Compile Include="Assets\Scripts\SYJ\3D Survival Game\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\SYJ\3D Survival Game\Hand.cs" />
-     <Compile Include="Assets\Scripts\SYJ\3D Survival Game\HandController.cs" />
-     <Compile Include="Assets\Scripts\SHS\GameManager.cs" />
-     <Compile Include="Assets\Scripts\SYJ\Quarter View Game1\PlayerController2.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingProfile.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\GrainComponent.cs" />
+     <Compile Include="Assets\Scripts\MainScript\ActionController.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingContext.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Scripts\OYJ\PlayerTurn.cs" />
+     <Compile Include="Assets\Scripts\HSH\MeditationUI.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\UserLutModel.cs" />
+     <Compile Include="Assets\Scripts\SHS\CSVReader.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\BloomComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
      <Compile Include="Assets\Scripts\SYJ\Quarter View Game1\CameraController.cs" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\NeuroSkyAssets\NeuroSkyTGCController\Readme.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+     <Compile Include="Assets\Scripts\SYJ\3D Survival Game\HandController.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\Scripts\SHS\TalkManager.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Assets\NeuroSkyAssets\NeuroSkyScripts\PreserveGameObject.cs" />
+     <Compile Include="Assets\Assets\QuarterView 3D Action BE5\ReadMe\Scripts\ReadmeBE5.cs" />
+     <Compile Include="Assets\Scripts\MainScript\Item.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\Scripts\HSH\SelectCriminal.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Scripts\OYJ\HintDatabase.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\Scripts\HSH\Puzzle.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+     <Compile Include="Assets\Scripts\SHS\Script_Manager.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\Scripts\SYJ\3D Survival Game\Hand.cs" />
+     <Compile Include="Assets\Scripts\OYJ\ButtonEvent.cs" />
+     <Compile Include="Assets\Scripts\HSH\CH_move.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+     <Compile Include="Assets\Scripts\SHS\CameraMove.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\Scripts\SHS\PuzzleUI.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Scripts\OYJ\CanvasKey.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\FogComponent.cs" />
+     <Compile Include="Assets\Assets\NeuroSkyAssets\NeuroSkyScripts\DisplayData.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\Scripts\SYJ\Quarter View Game1\PlayerController2.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Scripts\SHS\GameManager.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\Scripts\OYJ\ImageChange.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+     <Compile Include="Assets\Scripts\HSH\Camera_move.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\DitheringModel.cs" />
+     <Compile Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Scripts\OYJ\NoteKey.cs" />
+     <Compile Include="Assets\Scripts\OYJ\DeleteKey.cs" />
+     <None Include="Assets\Assets\Smartphone\StandardColorMask.shader" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\GrainGen.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Assets\NeuroSkyAssets\NeuroSkyTGCController\Readme.txt" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\LutGen.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\TAA.cginc" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
      <None Include="Assets\Source\SYJ\Servival Game\Water Shader\Water_Shader.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Tutorial.txt" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ACES.cginc" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+     <None Include="Assets\Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\FXAA.shader" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Fog.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+     <None Include="Assets\Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\UI\Trackball.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Common.cginc" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Bloom.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Uber.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\TAA.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Blit.shader" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Bloom.cginc" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+     <None Include="Assets\Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -299,10 +446,10 @@
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Jayrock.Json">
-        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Assets/NeuroSkyAssets/NeuroSkyScripts/Jayrock.Json.dll</HintPath>
+        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Assets/Assets/NeuroSkyAssets/NeuroSkyScripts/Jayrock.Json.dll</HintPath>
     </Reference>
     <Reference Include="Jayrock">
-        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Assets/NeuroSkyAssets/NeuroSkyScripts/Jayrock.dll</HintPath>
+        <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Assets/Assets/NeuroSkyAssets/NeuroSkyScripts/Jayrock.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/Users/shinyijin/GitHub/Learn-Unity/test/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>

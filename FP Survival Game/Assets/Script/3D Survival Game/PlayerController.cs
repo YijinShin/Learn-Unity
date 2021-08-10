@@ -127,19 +127,16 @@ public class PlayerController : MonoBehaviour
         if(isCrouch){
             applySpeed = crouchSpeed;
             applyCrounchPosY = crouchPosY;
-            Debug.Log("pos : "+applyCrounchPosY);
         }
         else{
             applySpeed = walkSpeed;
             applyCrounchPosY = originPosY;
-            Debug.Log("pos : "+applyCrounchPosY);
         }
         
         //y값만 수정 
         //theCamera.transform.localPosition = new Vector3(theCamera.transform.localPosition.x, applyCrounchPosY, theCamera.transform.localPosition.z);
         //위에서 시도한 카메라의 로컬포지션을 바꾸는 것은 너무 확확 바뀐다. 그래서 사용하는 것이 코르틴.
         StartCoroutine("LogCoroutine"); // CrouchCoroutine을 시작한다. 
-        Debug.Log("camera:" + theCamera.transform.position.y);
     } 
     // 보통 함수는 위에서 아래로 차례대로 실행되는데 코르틴은 동시에 다 같이 실행된다. 병렬처리. 물론 실제로 cpu상에서 병렬처리를 하는건 아니고 하나의 cpu로 
     //빠르게 왔다갔다 처리하면서 병렬로 되는것처럼 보이게 하는 것. 
@@ -147,7 +144,6 @@ public class PlayerController : MonoBehaviour
     IEnumerable CrouchCoroutine(){
         float _posY = theCamera.transform.localPosition.y;
         int count = 0;
-        Debug.Log(applyCrounchPosY+":"+_posY);
         while(_posY != applyCrounchPosY){ //목표값에 도달하기까지 반복적으로 증감. 
             count ++;
             //근데 보관을 사용해서 증가 시키면 속도의 강약이 조절됨. 안그러면 너무 선형적으로 움직이니까..
@@ -161,7 +157,6 @@ public class PlayerController : MonoBehaviour
     }
 
     IEnumerable LogCoroutine(){
-        Debug.Log("in coroutine");
         //yield return null;//코르틴의 장점에는 대기 라는게 있다. null을 넣어주면 한프레임 대기. 
         yield return new WaitForSeconds(1.0f);
     }
@@ -200,7 +195,5 @@ public class PlayerController : MonoBehaviour
         float _yRotation = Input.GetAxisRaw("Mouse X");
         Vector3 _characterRotationY = new Vector3(0f, _yRotation, 0f) * lookSeneitivity;
         myRigid.MoveRotation(myRigid.rotation * Quaternion.Euler(_characterRotationY)); // 자기자신의 현재 회전값 * 회전시킬 백터값을 쿼터니온으로 변환한 값. MoveRotation은 MovePosition과는 다르게 백터3가 아니라 쿼터니온을 인자값으로 받음
-        //Debug.Log(myRigid.rotation); // vec3는 3원소
-        //Debug.Log(myRigid.rotation.eulerAngles); //쿼터니온은 4원소이다. 
     }
 }

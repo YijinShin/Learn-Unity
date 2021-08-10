@@ -10,46 +10,49 @@ public class PlayerMove : MonoBehaviour
     public float speed;
     float hAxis;
     float vAxis;
+    int playerStatus; // 캐릭터 상태
+    int talkIndex;
+    int number;
 
     Vector3 moveVec;
 
     Animator anim;
     Rigidbody rigid;
+    public int countInvestigate;
     public GameManager manager;
-    
+    public TalkManager talkManager;
     void Awake()
     {
+        playerStatus = 0;
         newCam = GetComponent<CameraMove>();
         anim = GetComponentInChildren<Animator>();
         rigid = GetComponent<Rigidbody>();
+        countInvestigate = 0;
+        //talkIndex = 0;
     }
 
     void Update()
     {
-        Move();
-        Turn();
+        Interaction();
+
+        /*
+        if(Input.GetKeyDown(KeyCode.Return))
+        {
+            manager.talkAction(talkIndex);
+            Debug.Log("talkIndex : " + talkIndex);
+            talkIndex++;
+        }*/
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            manager.selectCriminal();
+        }
     }
 
     void FixedUpdate()
     {
-        RaycastHit rayHit;
-        float hitDistance = 5.0f;
-
-        Debug.DrawRay(transform.position, transform.forward * hitDistance, new Color(1, 0, 0)); // DrawRay() : 에디터 상에서만 Ray를 그려주는 함수
-
-        if(Physics.Raycast(transform.position, transform.forward * hitDistance, out rayHit, hitDistance, LayerMask.GetMask("Cube")))
-        {
-            GameObject hitTarget = rayHit.collider.gameObject;
-            if(rayHit.distance < hitDistance)
-            {
-                Debug.Log(hitTarget.name);
-                if(Input.GetKeyDown("z"))
-                {
-                    manager.Action(hitTarget);
-                    manager.menuAction();
-                }
-            }
-        }
+        Move();
+        Turn();
     }
 
     void Move()
@@ -77,14 +80,70 @@ public class PlayerMove : MonoBehaviour
         
         anim.SetBool("isRun", moveVec != Vector3.zero);
     }
+
     void Turn() // 캐릭터 천천히 회전
     {
         if(hAxis == 0 && vAxis == 0)
         {
             return;
         }
-
         Quaternion newRotation = Quaternion.LookRotation(moveVec);
         rigid.rotation = Quaternion.Slerp(rigid.rotation, newRotation, rotateSpeed * Time.deltaTime);
+    }
+
+    void Interaction()
+    {
+        RaycastHit rayHit;
+        float hitDistance = 5.0f;
+
+        Debug.DrawRay(transform.position, transform.forward * hitDistance, new Color(1, 0, 0));
+
+        if(Physics.Raycast(transform.position, transform.forward * hitDistance, out rayHit, hitDistance, LayerMask.GetMask("Cube")))
+        {
+            GameObject hitTarget = rayHit.collider.gameObject;
+            if(rayHit.distance < hitDistance)
+            {
+                changeStatus();
+                Debug.Log(hitTarget.name);
+                if(Input.GetButtonDown("Investigate"))
+                {
+                    manager.Action(hitTarget); // 플레이어 상태에 따라 UI 내에서 다른 내용
+                    manager.menuAction(playerStatus); // 플레이어 상태에 따라 다른 UI
+                    bool talking = manager.talkAction(countInvestigate, "Book", 1);
+
+                    if(!talking)
+                    {
+                        countInvestigate++;
+                        Debug.Log(countInvestigate);
+                    }
+                }
+            }
+        }
+    }
+
+    void changeStatus() // 플레이어 상태 변경
+    {
+        if(Input.GetKeyDown("x"))
+        {
+            playerStatus = 0;
+        }
+
+        else if(Input.GetButtonDown("Jump"))
+        {
+            playerStatus = 1;
+        }
+
+        else if(Input.GetButtonDown("Sitting"))
+        {
+            playerStatus = 2;
+        }
+
+        Debug.Log("Player's Status : " + playerStatus);
+    }
+
+    public void init_countInvestigate()
+    {
+        countInvestigate = 0;
+        Debug.Log("무야호~");
     }
 }
