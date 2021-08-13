@@ -43,6 +43,8 @@ public class PlayerController : MonoBehaviour
     private Camera theCamera; //위에 Rigidbody는 SerializeField안했지만 여기서는 하는 이유가 있다. 
 
     private Rigidbody myRigid;
+    private GunController theGunController; // 뛰는중에는 정조준을 끄기 위해 객체 가져옴. 
+    private StatusController theStatusController;
     
     
     // Start is called before the first frame update
@@ -59,6 +61,8 @@ public class PlayerController : MonoBehaviour
         //앉는 것 역시 월드 기준이 아니라 플레이어 기준이 되어야하기 때문에 localPosition을 써야함. 그냥 Position 은 월드좌표입장에서의 카메라 위치임       
         originPosY = theCamera.transform.localPosition.y; 
         applySpeed = originPosY;
+        theGunController = FindObjectOfType<GunController>(); // 하이라키에서 guncontroller찾아서 가져옴. ㅌ
+        theStatusController = FindObjectOfType<StatusController>();
     }
 
     // Update is called once per frame
@@ -92,6 +96,9 @@ public class PlayerController : MonoBehaviour
     private void Jump(){
         if(isCrouch) //앉아있다가 점프한 경우 다시 서기 
             Crouch();
+        
+        // 스테미나 깎기
+        theStatusController.DecreaseStamina(100); //100씩 깎아줄거임. 
         //walk에서는 myRigid.movePosition이나 moveRotation을 이용했지만 이번에는 velocity를 쓸거임.
         // velocity : myRigid가 현재 움직이는 방향+속도. 이걸 수정할거임. transform.up=방향 , jumpForce=크기
         myRigid.velocity = transform.up * jumpForce;
@@ -107,7 +114,14 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Running(){
+        if(isCrouch){
+            Crouch();
+        }
+        theGunController.CancelFineSight(); //정조준 취소 
+
         isRun = true; 
+        //스테미나 깎기 
+        theStatusController.DecreaseStamina(10); //100씩 깎아줄거임. 
         applySpeed = runSpeed; //스피드 변경
     }
 

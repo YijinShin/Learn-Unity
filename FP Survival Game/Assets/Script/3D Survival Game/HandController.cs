@@ -63,4 +63,16 @@ public class HandController : MonoBehaviour
         return false;
     }
     
+    public void HandChange(Hand _hand){
+        if(WeaponManager.curretnWeapon != null){// 뭔가를 들고있는 경우 기존에 있던거 비활 해야함. 
+            WeaponManager.curretnWeapon.gameObject.SetActive(false); // 기존꺼 안보이게 함.
+        } 
+        currentHand = _hand; // 새 총 받아오기
+        WeaponManager.curretnWeapon = currentHand.GetComponent<Transform>(); //Gun을 Transform 컴포넌트형태로 바꿔줘야함. 
+        
+        WeaponManager.currentWeaponAnimator = currentHand.anim; // 애니메이션 넣기. 이걸 여기로 가져오면 각 컴포넌트에서 애니메이션 처리 할 필요 없이 weaponManager에서 한번에 처리 가능. 
+        
+        currentHand.transform.localPosition = Vector3.zero; // 포지션 다시 초기화 시키고
+        currentHand.gameObject.SetActive(true); // 눈에 보이게 함. 
+    }
 }

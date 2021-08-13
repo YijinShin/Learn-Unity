@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Animation/Hand/Hand.controller
+    - Assets/Animation/SubMachineGun1.meta
+    - Assets/Animation/SubMachineGun1/GunController.controller
+    - Assets/Animation/SubMachineGun1/GunController.controller.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Particle.meta
+    - Assets/Prefabs/Particle/Hit_Effect.prefab
+    - Assets/Prefabs/Particle/Hit_Effect.prefab.meta
+    - Assets/Scenes/3D Survival Game.unity
+    - Assets/Script/3D Survival Game/Gun.cs
+    - Assets/Script/3D Survival Game/Gun.cs.meta
+    - Assets/Script/3D Survival Game/GunController.cs
+    - Assets/Script/3D Survival Game/GunController.cs.meta
+    - Assets/Script/3D Survival Game/HUD.cs
+    - Assets/Script/3D Survival Game/HUD.cs.meta
+    - Assets/Script/3D Survival Game/HandController.cs
+    - Assets/Script/3D Survival Game/PlayerController.cs
+    - Assets/Script/3D Survival Game/UI_Script.meta
+    - Assets/Script/3D Survival Game/UI_Script/StatusController.cs
+    - Assets/Script/3D Survival Game/UI_Script/StatusController.cs.meta
+    - Assets/Script/3D Survival Game/WeaponManager.cs
+    - Assets/Script/3D Survival Game/WeaponManager.cs.meta
+    - Assets/Source/Servival Game/3D Model/lowPoly_arms_SubMachineGun.fbx.meta
+    - Assets/Source/Servival Game/Image/UI/Status/Status_Base_UI.png.meta
+    - Assets/Source/Servival Game/Image/UI/Status/Status_Bullet_Base.png.meta
+    - Assets/Source/Servival Game/Image/UI/Status/Status_DP.png.meta
+    - Assets/Source/Servival Game/Image/UI/Status/Status_DP_Top.png.meta
+    - Assets/Source/Servival Game/Image/UI/Status/Status_HP.png.meta
+    - Assets/Source/Servival Game/Image/UI/Status/Status_Hungry.png.meta
+    - Assets/Source/Servival Game/Image/UI/Status/Status_Satisfy.png.meta
+    - Assets/Source/Servival Game/Image/UI/Status/Status_Stamina.png.meta
+    - Assets/Source/Servival Game/Image/UI/Status/Status_Thirsty.png.meta
+    - Assets/Source/Servival Game/Particle System/Flame/Flame1_image.png.meta
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/TagManager.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
