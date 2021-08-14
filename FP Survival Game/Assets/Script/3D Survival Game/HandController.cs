@@ -16,7 +16,10 @@ public class HandController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TryAttack();
+        //인벤토리 꺼져있을때만 공격 가능 
+        if(!Inventory.inventoryActivated){
+            TryAttack();
+        }
     }
 
     private void TryAttack(){

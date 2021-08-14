@@ -36,6 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\3D Survival Game\Item.cs" />
+     <Compile Include="Assets\Script\3D Survival Game\UI_Script\StatusController.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\FxaaComponent.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
@@ -80,6 +82,7 @@
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FOVKick.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\FogModel.cs" />
+     <Compile Include="Assets\Script\3D Survival Game\HUD.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\TaaComponent.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
      <Compile Include="Assets\Script\3D Survival Game\Hand.cs" />
@@ -92,6 +95,7 @@
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingModel.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Script\3D Survival Game\WeaponManager.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
      <Compile Include="Assets\Script\3D Survival Game\PlayerController.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -105,6 +109,7 @@
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Script\3D Survival Game\ItemPickUp.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\FogComponent.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\BloomModel.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\GrainComponent.cs" />
@@ -115,6 +120,7 @@
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\Script\3D Survival Game\ActionController.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
@@ -123,9 +129,9 @@
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\BloomComponent.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\DitheringModel.cs" />
      <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FPSCounter.cs" />
-     <Compile Include="Assets\Script\3D Survival Game\HUD.cs" />
-     <Compile Include="Assets\Script\3D Survival Game\WeaponManager.cs" />
-     <Compile Include="Assets\Script\3D Survival Game\UI_Script\StatusController.cs" />
+     <Compile Include="Assets\Script\3D Survival Game\UI_Script\Slot.cs" />
+     <Compile Include="Assets\Script\3D Survival Game\UI_Script\Inventory.cs" />
+     <Compile Include="Assets\Script\3D Survival Game\UI_Script\DragSlot.cs" />
      <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\GrainGen.shader" />
      <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />

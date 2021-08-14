@@ -37,7 +37,9 @@ public class GunController : MonoBehaviour
     void Update()
     {
         GunFireRateCalc(); // 딜레이 깎기
-        TryFire(); // 발사 시도
+        if(!Inventory.inventoryActivated){
+            TryFire(); // 발사 시도
+        }   
         TryReload(); // 수동 재장전 
         TryFineSight();
     }

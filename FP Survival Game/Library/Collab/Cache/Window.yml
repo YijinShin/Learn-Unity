@@ -18,11 +18,22 @@ MonoBehaviour:
     - Assets/Animation/SubMachineGun1.meta
     - Assets/Animation/SubMachineGun1/GunController.controller
     - Assets/Animation/SubMachineGun1/GunController.controller.meta
+    - Assets/Items.meta
+    - Assets/Items/Rock.asset
+    - Assets/Items/Rock.asset.meta
     - Assets/Prefabs.meta
+    - Assets/Prefabs/ItemPrefabs.meta
+    - Assets/Prefabs/ItemPrefabs/Rock Item.prefab
+    - Assets/Prefabs/ItemPrefabs/Rock Item.prefab.meta
     - Assets/Prefabs/Particle.meta
     - Assets/Prefabs/Particle/Hit_Effect.prefab
     - Assets/Prefabs/Particle/Hit_Effect.prefab.meta
+    - Assets/Prefabs/UIPrefabs.meta
+    - Assets/Prefabs/UIPrefabs/Slot.prefab
+    - Assets/Prefabs/UIPrefabs/Slot.prefab.meta
     - Assets/Scenes/3D Survival Game.unity
+    - Assets/Script/3D Survival Game/ActionController.cs
+    - Assets/Script/3D Survival Game/ActionController.cs.meta
     - Assets/Script/3D Survival Game/Gun.cs
     - Assets/Script/3D Survival Game/Gun.cs.meta
     - Assets/Script/3D Survival Game/GunController.cs
@@ -30,13 +41,40 @@ MonoBehaviour:
     - Assets/Script/3D Survival Game/HUD.cs
     - Assets/Script/3D Survival Game/HUD.cs.meta
     - Assets/Script/3D Survival Game/HandController.cs
+    - Assets/Script/3D Survival Game/Item.cs
+    - Assets/Script/3D Survival Game/Item.cs.meta
+    - Assets/Script/3D Survival Game/ItemPickUp.cs
+    - Assets/Script/3D Survival Game/ItemPickUp.cs.meta
     - Assets/Script/3D Survival Game/PlayerController.cs
     - Assets/Script/3D Survival Game/UI_Script.meta
+    - Assets/Script/3D Survival Game/UI_Script/DragSlot.cs
+    - Assets/Script/3D Survival Game/UI_Script/DragSlot.cs.meta
+    - Assets/Script/3D Survival Game/UI_Script/Inventory.cs
+    - Assets/Script/3D Survival Game/UI_Script/Inventory.cs.meta
+    - Assets/Script/3D Survival Game/UI_Script/Slot.cs
+    - Assets/Script/3D Survival Game/UI_Script/Slot.cs.meta
     - Assets/Script/3D Survival Game/UI_Script/StatusController.cs
     - Assets/Script/3D Survival Game/UI_Script/StatusController.cs.meta
     - Assets/Script/3D Survival Game/WeaponManager.cs
     - Assets/Script/3D Survival Game/WeaponManager.cs.meta
     - Assets/Source/Servival Game/3D Model/lowPoly_arms_SubMachineGun.fbx.meta
+    - Assets/Source/Servival Game/Image/Item/item_Used_Green_Potion.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_Used_Meat_Burnt.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_Used_Meat_Cooked.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_Used_Meat_Raw.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_Used_Red_Potion.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_Used_Yellow_Potion.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_axe.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_leaf.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_log.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_pickaxe.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_rock.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_submachineGun.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_submachinegun2.png.meta
+    - Assets/Source/Servival Game/Image/Item/item_twig.png.meta
+    - Assets/Source/Servival Game/Image/UI/Inventory/Inventory_Base.png.meta
+    - Assets/Source/Servival Game/Image/UI/Inventory/Inventory_Slot.png.meta
+    - Assets/Source/Servival Game/Image/UI/Inventory/Inventory_Slot_Count_UI.png.meta
     - Assets/Source/Servival Game/Image/UI/Status/Status_Base_UI.png.meta
     - Assets/Source/Servival Game/Image/UI/Status/Status_Bullet_Base.png.meta
     - Assets/Source/Servival Game/Image/UI/Status/Status_DP.png.meta
@@ -50,7 +88,7 @@ MonoBehaviour:
     - ProjectSettings/InputManager.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

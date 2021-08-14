@@ -66,8 +66,10 @@ public class StatusController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Hungry(); // 
-        Thirsty();
+        //Hungry(); 
+        //Thirsty();
+        SPRechargeTime();
+        SPRecover();
         GaugeUpdate(); //이미지에 계산한 게이지 반영 
     }
 
@@ -134,8 +136,11 @@ public class StatusController : MonoBehaviour
 
     private void SPRecover(){
         if(!spUsed && currentSp < sp){ // spUsed
-
+            currentSp += spIncreaseSpeed;
         }
     }
 
+    public int GetCurrentSP(){ //sp가 다 달면 점프랑 런 못하게 하는거 
+        return currentSp;
+    }
 }

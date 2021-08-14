@@ -73,8 +73,12 @@ public class PlayerController : MonoBehaviour
         TryRun(); // 뛰고있는지 걷고있는지 먼저 판단 후 
         TryCrouch();
         Move(); // 움직임
-        CameraRotation();
-        CharacterRotation();
+
+        //인벤토리가 꺼져있을 때만 카메라 이동 
+        if(!Inventory.inventoryActivated){
+            CameraRotation();
+            CharacterRotation();
+        }
     }
     private void IsGround(){
         // 레이저를 쏴서 플레이어가 바닦에 붙어있는지 확인 
@@ -87,7 +91,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void TryJump(){
-        if(Input.GetKey(KeyCode.Space)){ //달리기 시작
+        if(Input.GetKey(KeyCode.Space) && theStatusController.GetCurrentSP() > 0){ //달리기 시작 (sp가 0보다 커야지 가능 )
             if(isGround){// 땅에 있을경우(공중에있으면 이중점프가 되는거니까)
                 Jump();
             } 
@@ -105,10 +109,10 @@ public class PlayerController : MonoBehaviour
     }
 
     private void TryRun(){
-        if(Input.GetKey(KeyCode.LeftShift)){ //달리기 시작
+        if(Input.GetKey(KeyCode.LeftShift) && theStatusController.GetCurrentSP() > 0 ){ //달리기 시작
             Running();
         }        
-        if(Input.GetKeyUp(KeyCode.LeftShift)){ //달리기 끝 
+        if(Input.GetKeyUp(KeyCode.LeftShift) ||theStatusController.GetCurrentSP() <= 0 ){ //달리기 끝 
             RunningCancel();
         }
     }

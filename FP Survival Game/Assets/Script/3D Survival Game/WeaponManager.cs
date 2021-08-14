@@ -51,12 +51,14 @@ public class WeaponManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!isChangeWeapon){
-            if(Input.GetKeyDown(KeyCode.Alpha1)){//숫자 1이 눌리면 무기 교체 (서브머신건1)
-                StartCoroutine(ChangeWeaponCoroutine("HAND", "맨손"));            
-            }
-            else if(Input.GetKeyDown(KeyCode.Alpha2)){ // 숫자 2가 눌리면 맨손
-                    StartCoroutine(ChangeWeaponCoroutine("GUN", "SubMachineGun1"));            
+        if(!Inventory.inventoryActivated){
+            if(!isChangeWeapon){
+                if(Input.GetKeyDown(KeyCode.Alpha1)){//숫자 1이 눌리면 무기 교체 (서브머신건1)
+                    StartCoroutine(ChangeWeaponCoroutine("HAND", "맨손"));            
+                }
+                else if(Input.GetKeyDown(KeyCode.Alpha2)){ // 숫자 2가 눌리면 맨손
+                        StartCoroutine(ChangeWeaponCoroutine("GUN", "SubMachineGun1"));            
+                }
             }
         }
     }
