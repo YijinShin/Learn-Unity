@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a018efce2bd4dc58e97ca825f757e8, type: 3}
+  m_Name: Chair3
+  m_EditorClassIdentifier: 
+  itemName: Chair3
+  itemPrefab: {fileID: 7799102545480615434, guid: e3667287303d349beb762b7b807b5391, type: 3}
+  itemImage: {fileID: 0}
+  itemType: 0
+  hint: {fileID: 0}
+  hasFound: 0
+  sit: 0
+  tiptoe: 0
+  front: 0
+  sitLog: "\uC758\uC790 \uBC11\uC5D0\uB294 \uC544\uBB34\uAC83\uB3C4 \uC5C6\uB2E4. "
+  tiptoeLog: "\uC5D4\uD2F1\uD55C \uC758\uC790\uB2E4."
+  frontLog: "\uC5D4\uD2F1\uD55C \uC758\uC790\uB2E4."

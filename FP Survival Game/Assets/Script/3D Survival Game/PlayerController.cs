@@ -68,16 +68,18 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        IsGround(); // 땅에 있는지 먼저 확인 후 점프 해야하니까 
-        TryJump();
-        TryRun(); // 뛰고있는지 걷고있는지 먼저 판단 후 
-        TryCrouch();
-        Move(); // 움직임
+        if(GameManager.canPlayerMove){
+            IsGround(); // 땅에 있는지 먼저 확인 후 점프 해야하니까 
+            TryJump();
+            TryRun(); // 뛰고있는지 걷고있는지 먼저 판단 후 
+            TryCrouch();
+            Move(); // 움직임
 
-        //인벤토리가 꺼져있을 때만 카메라 이동 
-        if(!Inventory.inventoryActivated){
-            CameraRotation();
-            CharacterRotation();
+            //인벤토리가 꺼져있을 때만 카메라 이동 
+            if(!Inventory.inventoryActivated){
+                CameraRotation();
+                CharacterRotation();
+            }   
         }
     }
     private void IsGround(){

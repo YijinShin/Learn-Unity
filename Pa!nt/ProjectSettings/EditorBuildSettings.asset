@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_FirstPage.unity
+    guid: 07dc43a5aa49f4bf8a086a1d533c5eca
+  - enabled: 1
+    path: Assets/Scenes/SHS/Stage_Select.unity
+    guid: 585bcfb8c5d8ff849a247bedd7836f01
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_0.unity
+    guid: 04ee6c1487f1347daadb2d2fdb29b296
+  - enabled: 1
+    path: Assets/Scenes/HSH/Stage_1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SHS/Stage_2.unity
+    guid: fce51beaa25a0c4459720508985ece04
+  - enabled: 1
+    path: Assets/Scenes/HSH/Stage_3.unity
+    guid: 0b0e79204746bba4eb90b83ce1eb3f80
+  - enabled: 1
+    path: Assets/Scenes/HSH/Stage_4.unity
+    guid: 12c4a5c5c0c04ab46b8fe7e61f787a15
+  - enabled: 1
+    path: Assets/Scenes/SHS/Stage_5.unity
+    guid: 63e5cd892b464fc429dcd64280a39697
+  - enabled: 1
+    path: Assets/Scenes/HSH/Stage_6.unity
+    guid: a6f1e7f188a00784996268ebf0f32ef9
+  - enabled: 1
+    path: Assets/Scenes/HSH/Stage_7.unity
+    guid: 93854de56b5047f4681ce3a6823993a2
+  - enabled: 1
+    path: Assets/Scenes/SHS/Stage_8.unity
+    guid: 99334f7d3748d8147a2ade9cf6463271
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_9.unity
+    guid: 2e506b60ca9ab4d01a511c0f4bcac878
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_10.unity
+    guid: 29f4eb82073ff4a7b9b42c1b76ba5c2a
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_11.unity
+    guid: 78eb11166479e4d648cc2f2689f84a40
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_12.unity
+    guid: 81645094c122c493d838567f9de4417c
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_13.unity
+    guid: 2730e498bde734e3a808455f6d274b2f
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_14.unity
+    guid: a12df2884ef544bd087ddf686dd0c6c4
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_15.unity
+    guid: db6c895a7c37147bea92e9e21e9f3bc4
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_16.unity
+    guid: c6d5fa6b94bf342809a3c35b9099a58b
+  - enabled: 1
+    path: Assets/Scenes/SHS/Stage_17.unity
+    guid: 0bba6af9da802a943b96643ca22536e1
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_18.unity
+    guid: 0ac62cc594f9d6b47ac2266d78be6516
+  - enabled: 1
+    path: Assets/Scenes/OYJ/Stage_19.unity
+    guid: 0f27198ecb0a3e54fbda52617dc7d995
+  - enabled: 1
+    path: Assets/Scenes/SHS/Stage_20.unity
+    guid: df5fe1478ca3a9d49949a80be3129cb4
+  - enabled: 1
+    path: Assets/Scenes/SHS/Stage_ThankYou.unity
+    guid: 2c4bf77d9fc47d74ea89b18ceb004211
+  m_configObjects: {}
