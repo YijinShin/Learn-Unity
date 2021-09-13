@@ -17,4 +17,4 @@ MonoBehaviour:
   itemImage: {fileID: 21300000, guid: 8daddb70a45a9d745bd298fad8593ea3, type: 3}
   itemType: 0
   hint: {fileID: 733370323732725133, guid: 4bad6fd126aaa4f8cae30891d080afbe, type: 3}
-  hasFound: 1
+  hasFound: 0

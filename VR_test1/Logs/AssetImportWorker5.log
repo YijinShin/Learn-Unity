@@ -1,0 +1,130 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/Users/shinyijin/GitHub/Learn-Unity/VR_test1
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50372
+Successfully changed project path to: /Users/shinyijin/GitHub/Learn-Unity/VR_test1
+/Users/shinyijin/GitHub/Learn-Unity/VR_test1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/shinyijin/GitHub/Learn-Unity/VR_test1/Assets
+GfxDevice: creating device client; threaded=0
+2021-09-12 16:13:23.892 Unity[3837:167229] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-09-12 16:13:23.892 Unity[3837:167229] Metal devices available: 1
+2021-09-12 16:13:23.892 Unity[3837:167229] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-09-12 16:13:23.893 Unity[3837:167229] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56837
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000688 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 43.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.860 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.777 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.4 MB.
+System memory in use after: 212.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 2.563949 ms (FindLiveObjects: 0.219651 ms CreateObjectMapping: 0.205687 ms MarkObjects: 1.998658 ms  DeleteObjects: 0.138547 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Source/SkythianCat/Hand_Painted_Nature_Kit_LITE/DEMO/Demo_terrain.asset
+  artifactKey: Guid(e8dfda675d4b6b045a1a927e19caffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Source/SkythianCat/Hand_Painted_Nature_Kit_LITE/DEMO/Demo_terrain.asset using Guid(e8dfda675d4b6b045a1a927e19caffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Obtained 49 stack frames.
+#0  0x000001046fc7b0 in core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> >::node* core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> >::lookup<core::basic_string<char, core::StringStorageDefault<char> >, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> >(core::basic_string<char, core::StringStorageDefault<char> > const&, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> const&) const
+#1  0x000001046d5cb1 in GuidReservations::Reserve(core::basic_string<char, core::StringStorageDefault<char> > const&, core::basic_string<char, core::StringStorageDefault<char> > const&)
+#2  0x000001046d3bc2 in CreateAssetToGUIDMappingV2(core::basic_string_ref<char>, AssetDatabase::CaseSensitivityMode)
+#3  0x0000010462ca1b in AssetDatabase::CreateAssetToGUIDMapping(core::basic_string<char, core::StringStorageDefault<char> > const&, AssetDatabase::CaseSensitivityMode)
+#4  0x000001031d1838 in SplatDatabase::CreateTerrainLayerAsset(SplatPrototype const&)
+#5  0x000001031d25ac in SplatDatabase::ConvertSplatsToTerrainLayers()
+#6  0x000001031d2622 in SplatDatabase::AwakeFromLoad(AwakeFromLoadMode)
+#7  0x0000010320b1a3 in TerrainData::AwakeFromLoad(AwakeFromLoadMode)
+#8  0x00000102ea2858 in AwakeFromLoadQueue::InvokePersistentManagerAwake(AwakeFromLoadQueue::Item*, unsigned int, AwakeFromLoadMode, bool)
+#9  0x00000102ea2556 in AwakeFromLoadQueue::PersistentManagerAwakeFromLoad(int, AwakeFromLoadMode, bool)
+#10 0x00000102ea220a in AwakeFromLoadQueue::PersistentManagerAwakeFromLoad()
+#11 0x00000102e12c2b in PersistentManager::IntegrateAllThreadedObjects()
+#12 0x00000102e1391c in PersistentManager::LoadAndIntegrateAllPreallocatedObjects(PersistentManager::LockFlags)
+#13 0x00000102e1221b in PersistentManager::ReadObject(int, AwakeFromLoadMode)
+#14 0x000001012628e1 in PPtr<Object>::operator Object*() const
+#15 0x0000010461d399 in PreviewImporter::GenerateAssetData(AssetImportContext&)
+#16 0x0000010471e84f in ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+#17 0x0000010471d92c in ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+#18 0x000001046708b3 in AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+#19 0x00000104712b7a in core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+#20 0x00000104786780 in asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+#21 0x00000104783a45 in asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+#22 0x000001047834e1 in asio::detail::task_io_service::run(std::__1::error_code&)
+#23 0x0000010477d7aa in IOService::Run(bool)
+#24 0x000001046da37c in RunAssetImporterV2()
+#25 0x000001039db6c3 in Application::InitializeProject()
+#26 0x00000105bf23dd in -[EditorApplication applicationDidFinishLaunching:]
+#27 0x007fff205f0fec in __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+#28 0x007fff2068c89b in ___CFXRegistrationPost_block_invoke
+#29 0x007fff2068c80f in _CFXRegistrationPost
+#30 0x007fff205c1bde in _CFXNotificationPost
+#31 0x007fff21330abe in -[NSNotificationCenter postNotificationName:object:userInfo:]
+#32 0x007fff22e22b2d in -[NSApplication _postDidFinishNotification]
+#33 0x007fff22e2287b in -[NSApplication _sendFinishLaunchingNotification]
+#34 0x007fff22e1fa72 in -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+#35 0x007fff22e1f6c7 in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+#36 0x007fff2135c056 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+#37 0x007fff2135bec6 in _NSAppleEventManagerGenericHandler
+#38 0x007fff263d9ed9 in _AppleEventsCheckInAppWithBlock
+#39 0x007fff263d95f4 in _AppleEventsCheckInAppWithBlock
+#40 0x007fff263d2260 in aeProcessAppleEvent
+#41 0x007fff288935a2 in AEProcessAppleEvent
+#42 0x007fff22e19e3e in _DPSNextEvent
+#43 0x007fff22e18177 in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#44 0x007fff22e0a68a in -[NSApplication run]
+#45 0x007fff22dde96f in NSApplicationMain
+#46 0x00000105c2d1b9 in EditorMain(int, char const**)
+#47 0x00000105c2d3e9 in main
+#48 0x007fff2051e621 in start

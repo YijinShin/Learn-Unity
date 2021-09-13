@@ -658,13 +658,8 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     Analytics: 1
-    Build: 0
     Collab: 1
-    Game Performance: 0
-    Purchasing: 0
-    UDP: 0
     UNet: 1
-    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -678,10 +673,10 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 5b58a27b-45a8-4d5b-b9e2-8f9524744b12
+  cloudProjectId: c40fa2b6-3bed-4321-a8a7-bfe97344d99c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: CrimeScene_Tutorial1
+  projectName: CrimeScene_tutorial_test1
   organizationId: hyeongseo
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

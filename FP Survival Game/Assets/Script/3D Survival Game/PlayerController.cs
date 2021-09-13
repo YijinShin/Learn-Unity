@@ -84,12 +84,12 @@ public class PlayerController : MonoBehaviour
     }
     private void IsGround(){
         // 레이저를 쏴서 플레이어가 바닦에 붙어있는지 확인 
-        //(레이저를 쏘기 시작하는 곳, 쏘는 방향, 쏠 거리 )
+        // (레이저를 쏘기 시작하는 곳, 쏘는 방향, 쏠 거리 )
         isGround = Physics.Raycast(transform.position, Vector3.down,capsuleCollider.bounds.extents.y + 0.1f); 
         // transform.position는 오브젝트의 위치는 맞는데 정확하게는 그 물체 이동할때 중심부에 조그만 정육면체 있지? 그거의 위치임. 물체 중심의 위치.  
-        //capsuleCollider.bounds.extents.y : 캡슐콜라이더의 영역의(bounds) > 반 사이즈(extents) > 정확히는 y값의 반(y)
-        //그러니까 만약 물체가 바닦에 맞닿아있으면 해당 물체의 높이의 반에 해당하는 길이의 레이저를 쏘면 딱 바닦에 닿음. 조금이라도 떠있으면 안닿겠지 
-        //근데 얘가 대각선이나 경사면에 있으면 이게 또 보기에는 닿았는데 안닿았다고 쳐질수있다. 그래서 그 오차를 커버하기위해 0.1f의 오차를 더 줌. 
+        // capsuleCollider.bounds.extents.y : 캡슐콜라이더의 영역의(bounds) > 반 사이즈(extents) > 정확히는 y값의 반(y)
+        // 그러니까 만약 물체가 바닦에 맞닿아있으면 해당 물체의 높이의 반에 해당하는 길이의 레이저를 쏘면 딱 바닦에 닿음. 조금이라도 떠있으면 안닿겠지 
+        // 근데 얘가 대각선이나 경사면에 있으면 이게 또 보기에는 닿았는데 안닿았다고 쳐질수있다. 그래서 그 오차를 커버하기위해 0.1f의 오차를 더 줌. 
     }
 
     private void TryJump(){
@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
         
         // 스테미나 깎기
         theStatusController.DecreaseStamina(100); //100씩 깎아줄거임. 
-        //walk에서는 myRigid.movePosition이나 moveRotation을 이용했지만 이번에는 velocity를 쓸거임.
+        // walk에서는 myRigid.movePosition이나 moveRotation을 이용했지만 이번에는 velocity를 쓸거임.
         // velocity : myRigid가 현재 움직이는 방향+속도. 이걸 수정할거임. transform.up=방향 , jumpForce=크기
         myRigid.velocity = transform.up * jumpForce;
     }
@@ -199,7 +199,6 @@ public class PlayerController : MonoBehaviour
         //myRigid.MovePosition(transform.position + _velocity ) // transform(현위치) + _velocity(이동백터) 
         myRigid.MovePosition(transform.position + _velocity * Time.deltaTime); // 위와 같이 하면 걍 바로 순간이동하겠지. 그래서 _velocity를 deltaTime만큼 쪼개주는 것. 
         //Time.deltaTime : Update함수는 1초에 약 60번 실행됨. Time.deltaTime을 곱해주면 "1초동안 _velocity 만큼 움직이겠다"는 것이됨. 한번에 확이동하는것이 아니라 이동백터를 약60으로 쪼개서 매 프레임 마다 더하겠다는 것. 
-
     }
 
     private void CameraRotation(){ //player가 고개들 내리거나 든다.(카메라 로테이션)

@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SHS/NextScene.unity
     guid: b9cd23a630f31490db920b69ee357685
+  - enabled: 1
+    path: Assets/Scenes/SHS/Tutorial_FirstScene.unity
+    guid: 9aaaf4c50d63936449940fd4b1085a9c
+  - enabled: 1
+    path: Assets/Scenes/SHS/Tutorial_SHS.unity
+    guid: 6949bcf69ecc37044abcc7db5510f0f3
   m_configObjects: {}

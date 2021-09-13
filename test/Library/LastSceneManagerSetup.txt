@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Prototype.unity
+- path: Assets/SYJ/VR_test1/Scenes/VR_test1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
